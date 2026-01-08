@@ -25,9 +25,9 @@ PASSWORD   = "PASSWORD"  # <--- Updates automatically with Basic Auth
 
 # Monitoring Targets
 DATABASES = {
-    "Don-PRD": 21,
-    "Shared-PRD": 31,
-    "Shared-Postgres": 61
+    "DB-PRD": 211,
+    "Shared-PRD": 331,
+    "Shared-Postgres": 561
 }
 
 # Settings
@@ -250,3 +250,4 @@ if __name__ == "__main__":
             
         sys.stdout.flush()
         time.sleep(60)
+
